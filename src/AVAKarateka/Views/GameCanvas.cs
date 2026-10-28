@@ -9,8 +9,8 @@ using AVAKarateka.Engine;
 namespace AVAKarateka.Views;
 
 /// <summary>
-/// The screen: a fixed 1024×768 picture scaled to fit the window: the well in the middle, the score and the
-/// pieces' tally on the left, the next piece on the right. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: the cliff path or the fortress's halls, scrolling
+/// with the fight, and below them both fighters' strength, the score and the lives. Runs the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
